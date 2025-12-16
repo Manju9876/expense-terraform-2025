@@ -16,7 +16,6 @@ resource "aws_route53_record" "records" {
   records = [aws_instance.instances.private_ip]
 }
 
-
 resource "null_resource" "ansible_code" {
   depends_on = [aws_route53_record.records]
   provisioner "remote-exec" {

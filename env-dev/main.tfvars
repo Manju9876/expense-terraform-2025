@@ -10,6 +10,7 @@ tag_name = {
   mysql = {
     ami_id        = "ami-09c813fb71547fc4f"
     instance_type = "t3.small"
+  }
 }
 
 zone_id = "Z0739029GOTW9PY9KD3W"
